@@ -1,0 +1,22 @@
+ - html, javascript and css files
+ - api laravel
+    criacao da tabela BOOK migration com artisan
+    criacao de Factories e Seeder
+    criacao do Modelo Book
+    criacao de dados fakes com fake do php
+    CORS config
+
+- rotas:
+   http://localhost:8081/api/book/list
+   http://localhost:8081/api/book/list/:id
+   http://localhost:8081/api/book/create
+   http://localhost:8081/api/book/:id
+   http://localhost:8081/api/book/move/:id
+
+- conectar javascript com a api
+   fetchAPI
+
+- melhorias:
+   validacao de campos
+   diferentes tabelas no banco de dados
+    

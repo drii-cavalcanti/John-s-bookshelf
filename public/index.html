@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Books</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Nunito:400,600,700,800,900'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#">Logo</a>
+        <h2>John's Books</h2>
+    </header>
+    <div class="container">
+        <section class="friends-shelf">
+            <div class="friend-shelf">
+                <div class="card-header">
+                    <img class="profile-image" src="https://api.adorable.io/avatars/400/1.jpg" alt="">
+                    <h3 class="name-friend">Marc's Books</h3>
+                </div>
+                <div id="Marc" class="dropzone friend">
+                    
+                </div>
+            </div>
+            <div class="friend-shelf">
+                <div class="card-header">
+                    <img class="profile-image" src="https://api.adorable.io/avatars/400/3.jpg" alt="">
+                    <h3 class="name-friend">Freddie's Books</h3>
+                </div>
+                <div id="Freddie" class="dropzone friend">
+                    
+                </div>
+            </div>
+            <div class="friend-shelf">
+                <div class="card-header">
+                    <img class="profile-image" src="https://api.adorable.io/avatars/400/5.jpg" alt="">
+                    <h3 class="name-friend">Ryan's Books</h3>
+                </div>
+                <div id="Ryan" class="dropzone friend">
+                    
+                </div>
+            </div>
+        </section>
+        
+        <div class="person-bookshelf" id="person-bookshelf">
+            <div class="header my-bookshelf">
+                <img class="profile-image" src="https://api.adorable.io/avatars/400/2.jpg" alt="">
+                <h2 class="name-friend">My Bookshelf</h2>
+                <a href="#" id="btn-add" class="btn-add"><i class="fa fa-plus-circle"></i></a>
+            </div>
+            <div id="John" class="dropzone my-bookshelf">
+
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal-action">
+        <div class="modal">
+            <h2>What do you want to do?</h2>
+            <button id="lend" class="btn-state lend">Lend it</button>
+            <button id="gifted" class="btn-state gifted">Give it</button>
+        </div>
+    </div>
+    
+    <div class="modal-action">
+      
+            <div id="form-create" class="form-create">
+                <form action="">
+                    <div class="input-block">
+                      <label for="book-title">Title</label>
+                      <input type="text" id="book-title" />
+                    </div>
+                    <div class="input-block">
+                      <label for="book-state">State</label>
+                      <input type="text" id="book-state" />
+                    </div>
+                    <button id="create" type="submit" class="btn-create">Create</button>
+                  </form>
+            </div>
+      
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js" defer></script>
+<script>
+
+</script>
+</html>

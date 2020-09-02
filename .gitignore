@@ -1,0 +1,17 @@
+docker-laravel/node_modules/
+
+docker-laravel/storage/*.key
+docker-laravel/.env.*.php
+docker-laravel/.env.php
+docker-laravel/.env
+docker-laravel/Homestead.yaml
+docker-laravel/Homestead.json
+
+docker-laravel/data-mysql/
+docker-laravel/storage-db/
+docker-laravel/server/.env
+docker-laravel/server/.env.*.php
+docker-laravel/server/.env.php
+
+.env
+.DS_Store
